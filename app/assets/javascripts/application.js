@@ -15,4 +15,5 @@
 //= require turbolinks
 //= require_tree .
 //= require underscore
+//= require markerclusterer
 //= require gmaps/google
