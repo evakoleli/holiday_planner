@@ -1,6 +1,10 @@
-<h2><%= @title %></h2>
+<h2> Welcome to Holiday Planner </h2>
 
-<h4><%= @destination %></h4>
+<h4> You are really going to enjoy <%= @destination %>!</h4>
+
+<%= button_to "Wonna try again?", "/", :method => :get %>
+
+<br>
 
 <div style='width: 800px;'>
   <div id="map" style='width: 800px; height: 400px;'></div>
